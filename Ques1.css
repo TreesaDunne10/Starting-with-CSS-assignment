@@ -1,0 +1,17 @@
+/*Solution of ques 1.*/
+/*External CSS*/
+#external {
+    color: green;
+}
+
+.inline-external {
+    color: purple;
+}
+
+.int-ext {
+    color: darkolivegreen;
+}
+
+.in-int-ext {
+    color: blue;
+}

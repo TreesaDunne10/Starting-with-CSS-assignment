@@ -1,0 +1,42 @@
+<!--Starting with CSS assignment-->
+
+<!--Ques 1.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /*Internal css*/
+        .internal {
+            color: red;
+        }
+
+        .inline-internal {
+            color: darkcyan;
+        }
+
+        #inter-exter {
+            color: orange;
+        }
+
+        .in-int-ext {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: blue;">This is an Inline CSS</div>
+    <div class="internal">This is an Internal CSS</div>
+    <div id="external">This is an External CSS</div>
+
+    <div style="color: blueviolet;" class="inline-internal">Here is the combination of inline & internal css</div>
+    <div style="color: darkred;" class="inline-external">Inline + External CSS</div>
+    <div class="int-ext" id="inter-exter">Internal + External CSS</div>
+    <div style="color: red;" class="in-int-ext">Inline + Internal + External CSS</div>
+</body>
+</html>
+
+
